@@ -44,6 +44,11 @@ person (usually future me) does not re-debug them. Small tools come out of whate
 <img height="150" src="https://github-readme-stats.vercel.app/api?username=nolanpix&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&rank_icon=github" alt="stats" />
 <img height="150" src="https://github-readme-streak-stats.herokuapp.com/?user=nolanpix&theme=tokyonight&hide_border=true" alt="streak" />
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nolanpix/nolanpix/output/github-snake-dark.svg" />
+  <img width="100%" src="https://raw.githubusercontent.com/nolanpix/nolanpix/output/github-snake.svg" alt="contribution snake" />
+</picture>
+
 </div>
 
 <details>
