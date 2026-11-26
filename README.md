@@ -1,9 +1,15 @@
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/nolanpix/nolanpix/main/banner.svg" alt="Nolan Pierce — digital IC physical design" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nolanpix/nolanpix/main/banner.svg?v=7" />
+  <img width="100%" src="https://raw.githubusercontent.com/nolanpix/nolanpix/main/banner-light.svg?v=7" alt="Nolan Pierce — digital IC physical design" />
+</picture>
 
 <a href="https://nolanpix.github.io">
-  <img src="https://raw.githubusercontent.com/nolanpix/nolanpix/main/typing.svg?v=6" width="820" height="48" alt="Floorplan to signoff pipeline" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nolanpix/nolanpix/main/typing.svg?v=7" />
+    <img width="820" height="48" src="https://raw.githubusercontent.com/nolanpix/nolanpix/main/typing-light.svg?v=7" alt="Floorplan to signoff pipeline" />
+  </picture>
 </a>
 
 [![Website](https://img.shields.io/badge/nolanpix.github.io-0d1117?style=flat-square&logo=githubpages&logoColor=white)](https://nolanpix.github.io)
@@ -34,14 +40,20 @@ person (usually future me) does not re-debug them. Small tools come out of whate
 **Toolbox**
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/nolanpix/nolanpix/main/icons.svg" width="552" height="48" alt="python, tcl, perl, bash, html, make, git and linux" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nolanpix/nolanpix/main/icons.svg?v=7" />
+  <img width="552" height="48" src="https://raw.githubusercontent.com/nolanpix/nolanpix/main/icons-light.svg?v=7" alt="python, tcl, perl, bash, html, make, git and linux" />
+</picture>
 </div>
 
 `Innovus` · `PrimeTime` · `Verilog / SystemVerilog` · `Tcl` · `Perl` · `Liberty / SPEF / SDC` · `GitHub Pages`
 
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/nolanpix/nolanpix/main/milestones.svg" alt="milestones" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nolanpix/nolanpix/main/milestones.svg?v=7" />
+  <img width="100%" src="https://raw.githubusercontent.com/nolanpix/nolanpix/main/milestones-light.svg?v=7" alt="milestones" />
+</picture>
 
 <img height="150" src="https://github-readme-stats.vercel.app/api?username=nolanpix&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&rank_icon=github" alt="stats" />
 <img height="150" src="https://github-readme-streak-stats.herokuapp.com/?user=nolanpix&theme=tokyonight&hide_border=true" alt="streak" />
