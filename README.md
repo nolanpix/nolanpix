@@ -34,7 +34,7 @@ person (usually future me) does not re-debug them. Small tools come out of whate
 **Toolbox**
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/nolanpix/nolanpix/main/icons.svg" width="264" height="48" alt="python, bash, git and linux" />
+<img src="https://raw.githubusercontent.com/nolanpix/nolanpix/main/icons.svg" width="552" height="48" alt="python, tcl, perl, bash, html, make, git and linux" />
 </div>
 
 `Innovus` · `PrimeTime` · `Verilog / SystemVerilog` · `Tcl` · `Perl` · `Liberty / SPEF / SDC` · `GitHub Pages`
