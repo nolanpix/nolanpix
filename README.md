@@ -34,7 +34,7 @@ person (usually future me) does not re-debug them. Small tools come out of whate
 **Toolbox**
 
 <div align="left">
-<img src="https://skillicons.dev/icons?i=c,cpp,python,bash,git,linux,html,css,js&theme=dark" alt="stack" />
+<img src="https://skillicons.dev/icons?i=python,bash,git,linux,js&theme=dark" alt="stack" />
 </div>
 
 `Innovus` · `PrimeTime` · `Verilog / SystemVerilog` · `Tcl` · `Perl` · `Liberty / SPEF / SDC` · `GitHub Pages`
