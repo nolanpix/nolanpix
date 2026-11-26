@@ -33,8 +33,8 @@ person (usually future me) does not re-debug them. Small tools come out of whate
 
 **Toolbox**
 
-<div align="left">
-<img src="https://skillicons.dev/icons?i=python,bash,git,linux,js&theme=dark" alt="stack" />
+<div align="center">
+<img src="https://raw.githubusercontent.com/nolanpix/nolanpix/main/icons.svg" width="264" height="48" alt="python, bash, git and linux" />
 </div>
 
 `Innovus` · `PrimeTime` · `Verilog / SystemVerilog` · `Tcl` · `Perl` · `Liberty / SPEF / SDC` · `GitHub Pages`
