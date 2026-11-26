@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="128" viewBox="0 0 880 128" role="img" aria-label="Milestones">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff5a3c"/>
+      <stop offset="1" stop-color="#c0398f"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="879" height="127" rx="12" fill="#0d1117" stroke="#21262d"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+    <rect x="28" y="26" width="34" height="3" rx="1.5" fill="url(#accent)"/>
+    <text x="72" y="31" font-size="11" letter-spacing="2.4" fill="#8b949e" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace">MILESTONES</text>
+    <text x="28" y="82" font-size="30" font-weight="700" fill="#f0f6fc">30</text>
+    <text x="28" y="104" font-size="11" letter-spacing="1.6" fill="#8b949e">COMMITS</text>
+    <text x="240" y="82" font-size="30" font-weight="700" fill="#f0f6fc">2</text>
+    <text x="240" y="104" font-size="11" letter-spacing="1.6" fill="#8b949e">PUBLIC REPOS</text>
+    <text x="452" y="82" font-size="30" font-weight="700" fill="#f0f6fc">4</text>
+    <text x="452" y="104" font-size="11" letter-spacing="1.6" fill="#8b949e">NOTES</text>
+    <text x="664" y="82" font-size="20" font-weight="700" fill="#f0f6fc">Nov 2026</text>
+    <text x="664" y="104" font-size="11" letter-spacing="1.6" fill="#8b949e">BUILDING SINCE</text>
+    <line x1="198" y1="52" x2="198" y2="108" stroke="#21262d" stroke-width="1"/>
+    <line x1="410" y1="52" x2="410" y2="108" stroke="#21262d" stroke-width="1"/>
+    <line x1="622" y1="52" x2="622" y2="108" stroke="#21262d" stroke-width="1"/>
+  </g>
+</svg>
