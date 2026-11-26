@@ -1,0 +1,37 @@
+name: milestones card
+
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Render milestones.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: nolanpix
+        run: python3 tools/gen_milestones.py -o milestones.svg
+
+      - name: Commit when it changed
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -eu
+          f=milestones.svg
+          sha=$(gh api "repos/$GITHUB_REPOSITORY/contents/$f" --jq .sha)
+          cur=$(gh api "repos/$GITHUB_REPOSITORY/contents/$f" --jq .content | tr -d '\n')
+          new=$(base64 -w0 "$f")
+          if [ "$cur" = "$new" ]; then echo "card unchanged, nothing to commit"; exit 0; fi
+          gh api -X PUT "repos/$GITHUB_REPOSITORY/contents/$f" \
+            -f message="chore: refresh milestones card" \
+            -f content="$new" -f sha="$sha" > /dev/null
+          echo "card updated"
