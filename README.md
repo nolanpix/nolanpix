@@ -3,7 +3,7 @@
 <img width="100%" src="https://raw.githubusercontent.com/nolanpix/nolanpix/main/banner.svg" alt="Nolan Pierce — digital IC physical design" />
 
 <a href="https://nolanpix.github.io">
-  <img src="https://raw.githubusercontent.com/nolanpix/nolanpix/main/typing.svg?v=4" width="820" height="48" alt="Floorplan to signoff pipeline" />
+  <img src="https://raw.githubusercontent.com/nolanpix/nolanpix/main/typing.svg?v=5" width="820" height="48" alt="Floorplan to signoff pipeline" />
 </a>
 
 [![Website](https://img.shields.io/badge/nolanpix.github.io-0d1117?style=flat-square&logo=githubpages&logoColor=white)](https://nolanpix.github.io)
