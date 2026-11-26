@@ -3,7 +3,7 @@ name: metrics (achievements card)
 on:
   schedule:
     - cron: "30 3 * * *"
-  workflow_dispatch:
+  workflow_dispatch
   push:
     branches: [main]
 
@@ -13,7 +13,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Generate achievements card
+      - name: Render achievements card
         uses: lowlighter/metrics@latest
         with:
           filename: metrics-achievements.svg
@@ -26,3 +26,17 @@ jobs:
           plugin_achievements_threshold: C
           plugin_achievements_display: compact
           plugin_achievements_limit: 8
+          output_action: none
+
+      - name: Commit card
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -eu
+          f=metrics-achievements.svg
+          test -s "$f" || { echo "::error::metrics produced no $f"; exit 1; }
+          sha=$(gh api "repos/$GITHUB_REPOSITORY/contents/$f" --jq .sha 2>/dev/null || true)
+          if [ -n "$sha" ]; then extra=(-f "sha=$sha"); else extra=(); fi
+          gh api -X PUT "repos/$GITHUB_REPOSITORY/contents/$f" \
+            -f message="chore: update achievements card" \
+            -f content="$(base64 -w0 "$f")" "${extra[@]+"${extra[@]}"}"
