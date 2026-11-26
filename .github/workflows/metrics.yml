@@ -36,6 +36,9 @@ jobs:
           f=metrics-achievements.svg
           test -s "$f" || { echo "::error::metrics produced no $f"; exit 1; }
           sha=$(gh api "repos/$GITHUB_REPOSITORY/contents/$f" --jq .sha 2>/dev/null || true)
+          cur=$(gh api "repos/$GITHUB_REPOSITORY/contents/$f" --jq .content 2>/dev/null | tr -d '\n' || true)
+          new=$(base64 -w0 "$f")
+          if [ "$cur" = "$new" ]; then echo "card unchanged, nothing to commit"; exit 0; fi
           if [ -n "$sha" ]; then extra=(-f "sha=$sha"); else extra=(); fi
           gh api -X PUT "repos/$GITHUB_REPOSITORY/contents/$f" \
             -f message="chore: update achievements card" \
