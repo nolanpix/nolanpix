@@ -28,7 +28,7 @@ ERASE_MS = 400
 ADVANCE = round(FONT_SIZE * 0.6, 2)   # monospace advance at this size
 
 LINES = [
-    "Floorplan \u2192 Placement \u2192 CTS/CCopt \u2192 Route \u2192 postRoute \u2192 ECO \u2192 Signoff",
+    "Floorplan \u2192 Placement \u2192 CCopt \u2192 Route \u2192 postRoute \u2192 ECO \u2192 Signoff",
     "writing down what actually cost me days",
     "building small tools in public",
 ]
