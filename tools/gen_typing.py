@@ -25,7 +25,8 @@ FILL = "#c0398f"
 CHAR_MS = 87          # same cadence as the previous service-based header
 HOLD_MS = 2000        # dwell on the finished line so it can be read
 ERASE_MS = 400
-ADVANCE = round(FONT_SIZE * 0.6, 2)   # monospace advance at this size
+ADVANCE = round(FONT_SIZE * 0.6, 2)   # expected monospace advance at this size
+SLACK = round(4 * ADVANCE, 2)          # tail room: wider fallback fonts need extra path length
 
 LINES = [
     "Floorplan \u2192 Placement \u2192 CCopt \u2192 Route \u2192 postRoute \u2192 ECO \u2192 Signoff",
@@ -52,8 +53,10 @@ def schedule(index, rows, cycle):
     if start:
         points.append((start, 0.0))
     for k in range(1, chars + 1):
-        points.append((start + k * CHAR_MS, k * ADVANCE))
-    points.append((start + typing + HOLD_MS, full))
+        # the last step carries extra length so wider fallback fonts are not clipped
+        width = k * ADVANCE + (SLACK if k == chars else 0)
+        points.append((start + k * CHAR_MS, round(width, 2)))
+    points.append((start + typing + HOLD_MS, round(full + SLACK, 2)))
     steps = 8
     for j in range(1, steps + 1):
         points.append((start + typing + HOLD_MS + j * ERASE_MS / steps,
