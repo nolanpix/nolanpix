@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:ff5a3c,100:c0398f&text=Nolan%20Pierce&fontSize=52&fontColor=ffffff&fontAlignY=34&desc=digital%20IC%20physical%20design%20%C2%B7%20floorplan%20%E2%86%92%20signoff&descSize=18&descAlignY=56&descColor=ffffff&animation=fadeIn" alt="Nolan Pierce" />
+<img width="100%" src="https://raw.githubusercontent.com/nolanpix/nolanpix/main/banner.svg" alt="Nolan Pierce — digital IC physical design" />
 
 <a href="https://nolanpix.github.io">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&pause=1400&color=c0398f&center=true&vCenter=true&width=620&lines=floorplan+%E2%86%92+placement+%E2%86%92+CTS+%E2%86%92+route+%E2%86%92+signoff;writing+down+what+actually+cost+me+days;building+small+tools+in+public" alt="typing" />
@@ -43,8 +43,6 @@ person (usually future me) does not re-debug them. Small tools come out of whate
 
 <img height="150" src="https://github-readme-stats.vercel.app/api?username=nolanpix&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&rank_icon=github" alt="stats" />
 <img height="150" src="https://github-readme-streak-stats.herokuapp.com/?user=nolanpix&theme=tokyonight&hide_border=true" alt="streak" />
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:c0398f,100:ff5a3c&reversal=true" alt="footer" />
 
 </div>
 
