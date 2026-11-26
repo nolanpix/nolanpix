@@ -55,8 +55,14 @@ person (usually future me) does not re-debug them. Small tools come out of whate
   <img width="100%" src="https://raw.githubusercontent.com/nolanpix/nolanpix/main/milestones-light.svg?v=7" alt="milestones" />
 </picture>
 
-<img height="150" src="https://github-readme-stats.vercel.app/api?username=nolanpix&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&rank_icon=github" alt="stats" />
-<img height="150" src="https://github-readme-streak-stats.herokuapp.com/?user=nolanpix&theme=tokyonight&hide_border=true" alt="streak" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=nolanpix&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
+  <img height="150" src="https://github-readme-stats.vercel.app/api?username=nolanpix&show_icons=true&hide_border=true&rank_icon=github&bg_color=ffffff&title_color=0d1117&text_color=57606a&icon_color=a3317a&border_color=d0d7de" alt="GitHub stats" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=nolanpix&theme=tokyonight&hide_border=true" />
+  <img height="150" src="https://github-readme-streak-stats.herokuapp.com/?user=nolanpix&hide_border=true&background=ffffff&border=d0d7de&stroke=e04a2b&ring=e04a2b&fire=e04a2b&currStreakNum=0d1117&currStreakLabel=57606a&sideNums=0d1117&sideLabels=57606a&dates=8c959f" alt="contribution streak" />
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nolanpix/nolanpix/output/github-snake-dark.svg" />
