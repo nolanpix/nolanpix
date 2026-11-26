@@ -20,7 +20,7 @@ from xml.sax.saxutils import escape
 WIDTH = 820
 HEIGHT = 48
 FONT_SIZE = 18
-PATH_Y = 30
+PATH_Y = 32
 FILL = "#c0398f"
 CHAR_MS = 87          # same cadence as the previous service-based header
 HOLD_MS = 2000        # dwell on the finished line so it can be read
