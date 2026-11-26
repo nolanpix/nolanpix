@@ -3,7 +3,7 @@
 <img width="100%" src="https://raw.githubusercontent.com/nolanpix/nolanpix/main/banner.svg" alt="Nolan Pierce — digital IC physical design" />
 
 <a href="https://nolanpix.github.io">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&pause=1400&color=c0398f&center=true&vCenter=true&width=620&lines=floorplan+%E2%86%92+placement+%E2%86%92+CTS+%E2%86%92+route+%E2%86%92+signoff;writing+down+what+actually+cost+me+days;building+small+tools+in+public" alt="typing" />
+  <img src="https://raw.githubusercontent.com/nolanpix/nolanpix/main/typing.svg" width="820" height="48" alt="Floorplan to signoff pipeline" />
 </a>
 
 [![Website](https://img.shields.io/badge/nolanpix.github.io-0d1117?style=flat-square&logo=githubpages&logoColor=white)](https://nolanpix.github.io)
